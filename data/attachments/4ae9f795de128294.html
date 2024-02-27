@@ -1,0 +1,426 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>id</th>
+      <th>equipmentName</th>
+      <th>equipmentId</th>
+      <th>prevProductionId</th>
+      <th>productionAType</th>
+      <th>prevProductNameA</th>
+      <th>prevApiNameA</th>
+      <th>nextApiNameB</th>
+      <th>nextProductionId</th>
+      <th>nextProductNameB</th>
+      <th>productionBType</th>
+      <th>pdeA</th>
+      <th>minTdA</th>
+      <th>nextUnitWeight</th>
+      <th>prevUnitWeight</th>
+      <th>lddB</th>
+      <th>minBsB</th>
+      <th>sharedSurfaceArea</th>
+      <th>toxicityL3</th>
+      <th>dosageL3</th>
+      <th>generalL3</th>
+      <th>capL3</th>
+      <th>mddB</th>
+      <th>alertLimitL3</th>
+      <th>adjAlertLimitL3</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>130</td>
+      <td>Scoop</td>
+      <td>EQM-16</td>
+      <td>PRD1-P2</td>
+      <td>Product</td>
+      <td>Dabigatran Etexilate Capsules 75 mg 110 mg and 150 mg-Testing</td>
+      <td>Dabigatran Etexilate</td>
+      <td>None</td>
+      <td>PRD1-P35</td>
+      <td>Dipyridamole Capsule 200mg</td>
+      <td>Product</td>
+      <td>0.000035</td>
+      <td>100</td>
+      <td>620</td>
+      <td>500</td>
+      <td>2010.000</td>
+      <td>1.150000e-02</td>
+      <td>46.500</td>
+      <td>0.000004</td>
+      <td>1.230000e-02</td>
+      <td>0.002470</td>
+      <td>None</td>
+      <td>None</td>
+      <td>0.000004</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>131</td>
+      <td>Scoop</td>
+      <td>EQM-17</td>
+      <td>PRD1-P2</td>
+      <td>Product</td>
+      <td>Dabigatran Etexilate Capsules 75 mg 110 mg and 150 mg-Testing</td>
+      <td>Dabigatran Etexilate</td>
+      <td>None</td>
+      <td>PRD1-P22</td>
+      <td>Cetirizine capsule</td>
+      <td>Product</td>
+      <td>0.000035</td>
+      <td>100</td>
+      <td>120</td>
+      <td>500</td>
+      <td>0.012</td>
+      <td>1.200000e-03</td>
+      <td>511.501</td>
+      <td>0.006840</td>
+      <td>1.955000e+01</td>
+      <td>0.000023</td>
+      <td>None</td>
+      <td>None</td>
+      <td>0.006840</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>132</td>
+      <td>Scoop</td>
+      <td>EQM-16</td>
+      <td>PRD1-P2</td>
+      <td>Product</td>
+      <td>Dabigatran Etexilate Capsules 75 mg 110 mg and 150 mg-Testing</td>
+      <td>Dabigatran Etexilate</td>
+      <td>None</td>
+      <td>PRD1-P22</td>
+      <td>Cetirizine capsule</td>
+      <td>Product</td>
+      <td>0.000035</td>
+      <td>100</td>
+      <td>120</td>
+      <td>500</td>
+      <td>0.012</td>
+      <td>1.200000e-03</td>
+      <td>511.501</td>
+      <td>0.006840</td>
+      <td>1.955000e+01</td>
+      <td>0.000023</td>
+      <td>None</td>
+      <td>None</td>
+      <td>0.006840</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>133</td>
+      <td>Scoop</td>
+      <td>EQM-17</td>
+      <td>PRD1-P2</td>
+      <td>Product</td>
+      <td>Dabigatran Etexilate Capsules 75 mg 110 mg and 150 mg-Testing</td>
+      <td>Dabigatran Etexilate</td>
+      <td>None</td>
+      <td>PRD1-P18</td>
+      <td>Multi-API_Alend &amp; Pio</td>
+      <td>Product</td>
+      <td>0.000035</td>
+      <td>100</td>
+      <td>500</td>
+      <td>500</td>
+      <td>2508.000</td>
+      <td>1.223000e+03</td>
+      <td>465.001</td>
+      <td>0.036700</td>
+      <td>1.048690e+02</td>
+      <td>26.301000</td>
+      <td>None</td>
+      <td>None</td>
+      <td>0.036700</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>134</td>
+      <td>Scoop</td>
+      <td>EQM-17</td>
+      <td>PRD1-P2</td>
+      <td>Product</td>
+      <td>Dabigatran Etexilate Capsules 75 mg 110 mg and 150 mg-Testing</td>
+      <td>Dabigatran Etexilate</td>
+      <td>None</td>
+      <td>PRD1-P9</td>
+      <td>Multi-API_Ana &amp; Efa</td>
+      <td>Product</td>
+      <td>0.000035</td>
+      <td>100</td>
+      <td>750</td>
+      <td>500</td>
+      <td>7504.000</td>
+      <td>2.301000e+04</td>
+      <td>465.001</td>
+      <td>0.231000</td>
+      <td>6.594320e+02</td>
+      <td>494.838000</td>
+      <td>None</td>
+      <td>None</td>
+      <td>0.231000</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>135</td>
+      <td>Scoop</td>
+      <td>EQM-17</td>
+      <td>PRD1-P2</td>
+      <td>Product</td>
+      <td>Dabigatran Etexilate Capsules 75 mg 110 mg and 150 mg-Testing</td>
+      <td>Dabigatran Etexilate</td>
+      <td>None</td>
+      <td>PRD1-P8</td>
+      <td>Multi-API_Ana &amp; Efa</td>
+      <td>Product</td>
+      <td>0.000035</td>
+      <td>100</td>
+      <td>750</td>
+      <td>500</td>
+      <td>7509.000</td>
+      <td>4.119800e+04</td>
+      <td>465.001</td>
+      <td>0.413000</td>
+      <td>1.179886e+03</td>
+      <td>885.977000</td>
+      <td>None</td>
+      <td>None</td>
+      <td>0.413000</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>136</td>
+      <td>Vibratory Sifter - 1</td>
+      <td>EQM-2</td>
+      <td>PRD1-P2</td>
+      <td>Product</td>
+      <td>Dabigatran Etexilate Capsules 75 mg 110 mg and 150 mg-Testing</td>
+      <td>Dabigatran Etexilate</td>
+      <td>None</td>
+      <td>PRD1-P11</td>
+      <td>Anagrelide capsules 0.5 mg</td>
+      <td>Product</td>
+      <td>0.000035</td>
+      <td>100</td>
+      <td>450</td>
+      <td>500</td>
+      <td>851.000</td>
+      <td>4.712300e+04</td>
+      <td>1550.003</td>
+      <td>1.250000</td>
+      <td>3.572488e+03</td>
+      <td>304.019000</td>
+      <td>None</td>
+      <td>None</td>
+      <td>1.250000</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>137</td>
+      <td>Vibratory Sifter - 2</td>
+      <td>EQM-3</td>
+      <td>PRD1-P2</td>
+      <td>Product</td>
+      <td>Dabigatran Etexilate Capsules 75 mg 110 mg and 150 mg-Testing</td>
+      <td>Dabigatran Etexilate</td>
+      <td>None</td>
+      <td>PRD1-P11</td>
+      <td>Anagrelide capsules 0.5 mg</td>
+      <td>Product</td>
+      <td>0.000035</td>
+      <td>100</td>
+      <td>450</td>
+      <td>500</td>
+      <td>851.000</td>
+      <td>4.712300e+04</td>
+      <td>1550.003</td>
+      <td>1.250000</td>
+      <td>3.572488e+03</td>
+      <td>304.019000</td>
+      <td>None</td>
+      <td>None</td>
+      <td>1.250000</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>138</td>
+      <td>Scoop</td>
+      <td>EQM-17</td>
+      <td>PRD1-P2</td>
+      <td>Product</td>
+      <td>Dabigatran Etexilate Capsules 75 mg 110 mg and 150 mg-Testing</td>
+      <td>Dabigatran Etexilate</td>
+      <td>None</td>
+      <td>PRD1-P17</td>
+      <td>Multi-API_Alend &amp; Pio</td>
+      <td>Product</td>
+      <td>0.000035</td>
+      <td>100</td>
+      <td>500</td>
+      <td>500</td>
+      <td>2506.000</td>
+      <td>4.510000e+04</td>
+      <td>465.001</td>
+      <td>1.355000</td>
+      <td>3.870273e+03</td>
+      <td>969.891000</td>
+      <td>None</td>
+      <td>None</td>
+      <td>1.355000</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>139</td>
+      <td>Scoop</td>
+      <td>EQM-16</td>
+      <td>PRD1-P2</td>
+      <td>Product</td>
+      <td>Dabigatran Etexilate Capsules 75 mg 110 mg and 150 mg-Testing</td>
+      <td>Dabigatran Etexilate</td>
+      <td>None</td>
+      <td>PRD1-P10</td>
+      <td>Erythromycin 250 mg Gastro resistant Tablets</td>
+      <td>Product</td>
+      <td>0.000035</td>
+      <td>100</td>
+      <td>350</td>
+      <td>500</td>
+      <td>2504.000</td>
+      <td>4.511100e+04</td>
+      <td>46.500</td>
+      <td>13.560000</td>
+      <td>3.874310e+04</td>
+      <td>9701.271000</td>
+      <td>None</td>
+      <td>None</td>
+      <td>13.560000</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>140</td>
+      <td>Scoop</td>
+      <td>EQM-17</td>
+      <td>PRD1-P2</td>
+      <td>Product</td>
+      <td>Dabigatran Etexilate Capsules 75 mg 110 mg and 150 mg-Testing</td>
+      <td>Dabigatran Etexilate</td>
+      <td>None</td>
+      <td>PRD1-P7</td>
+      <td>Dolo 650mg Tablet</td>
+      <td>Product</td>
+      <td>0.000035</td>
+      <td>100</td>
+      <td>900</td>
+      <td>500</td>
+      <td>6507.000</td>
+      <td>3.630025e+06</td>
+      <td>465.001</td>
+      <td>41.990000</td>
+      <td>1.199706e+05</td>
+      <td>78064.898000</td>
+      <td>None</td>
+      <td>None</td>
+      <td>41.990000</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>141</td>
+      <td>Scoop</td>
+      <td>EQM-16</td>
+      <td>PRD1-P2</td>
+      <td>Product</td>
+      <td>Dabigatran Etexilate Capsules 75 mg 110 mg and 150 mg-Testing</td>
+      <td>Dabigatran Etexilate</td>
+      <td>None</td>
+      <td>PRD1-P33</td>
+      <td>Pioglitazone Tablets 45 mg</td>
+      <td>Product</td>
+      <td>0.000035</td>
+      <td>100</td>
+      <td>200</td>
+      <td>500</td>
+      <td>454.000</td>
+      <td>2.540000e+04</td>
+      <td>46.500</td>
+      <td>42.111000</td>
+      <td>1.203162e+05</td>
+      <td>5462.355000</td>
+      <td>None</td>
+      <td>None</td>
+      <td>42.111000</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>142</td>
+      <td>Scoop</td>
+      <td>EQM-16</td>
+      <td>PRD1-P2</td>
+      <td>Product</td>
+      <td>Dabigatran Etexilate Capsules 75 mg 110 mg and 150 mg-Testing</td>
+      <td>Dabigatran Etexilate</td>
+      <td>None</td>
+      <td>PRD1-P20</td>
+      <td>Amoxicillin Tablets</td>
+      <td>Product</td>
+      <td>0.000035</td>
+      <td>100</td>
+      <td>150</td>
+      <td>500</td>
+      <td>306.000</td>
+      <td>1.505000e+05</td>
+      <td>46.500</td>
+      <td>370.194000</td>
+      <td>1.057697e+06</td>
+      <td>32365.527000</td>
+      <td>None</td>
+      <td>None</td>
+      <td>370.194000</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>143</td>
+      <td>Scoop</td>
+      <td>EQM-16</td>
+      <td>PRD1-P2</td>
+      <td>Product</td>
+      <td>Dabigatran Etexilate Capsules 75 mg 110 mg and 150 mg-Testing</td>
+      <td>Dabigatran Etexilate</td>
+      <td>None</td>
+      <td>PRD1-P24</td>
+      <td>Aspirin 325 mg</td>
+      <td>Product</td>
+      <td>0.000035</td>
+      <td>100</td>
+      <td>200</td>
+      <td>500</td>
+      <td>2.330</td>
+      <td>8.520000e+04</td>
+      <td>46.500</td>
+      <td>27523.135000</td>
+      <td>7.863753e+07</td>
+      <td>18322.544000</td>
+      <td>None</td>
+      <td>None</td>
+      <td>27523.135000</td>
+      <td>None</td>
+    </tr>
+  </tbody>
+</table>
